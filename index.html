@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="تنظیم اساتذہ پاکستان — معلوماتی چیٹ اسسٹنٹ">
+<title>تنظیم اساتذہ پاکستان — معلوماتی اسسٹنٹ</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo" aria-hidden="true">📚</div>
+      <div class="titles">
+        <h1>تنظیم اساتذہ پاکستان</h1>
+        <p>AI معلوماتی اسسٹنٹ</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="chat" id="chat" aria-live="polite"></main>
+
+  <div class="chips" id="chips" role="group" aria-label="فوری موضوعات"></div>
+
+  <footer class="composer">
+    <input id="input" type="text" placeholder="اپنا سوال یہاں لکھیں…" autocomplete="off" enterkeyhint="send" aria-label="سوال لکھیں">
+    <button id="send" type="button" aria-label="بھیجیں">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+    </button>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
